@@ -578,6 +578,221 @@ header .header-links .icons .login:hover {
   width: 370px;
   background-color: #E9D3B0;
 }
+.block-4 {
+  background-image: url(../img/block-4/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media (max-width: 1440px) {
+  .block-4 {
+    background-image: url(../img/block-4/bg-1000.png);
+  }
+}
+@media (max-width: 1000px) {
+  .block-4 {
+    background-image: url(../img/block-4/bg-768.png);
+  }
+}
+@media (max-width: 768px) {
+  .block-4 {
+    background-image: url(../img/block-4/bg-576.png);
+  }
+}
+@media (max-width: 576px) {
+  .block-4 {
+    background-image: url(../img/block-4/bg-576.png);
+  }
+}
+@media (max-width: 320px) {
+  .block-4 {
+    background-image: url(../img/block-4/bg-320.png);
+  }
+}
+.block-4 .container {
+  margin: 0 auto;
+}
+.block-4__header {
+  width: 100%;
+  margin-bottom: 80px;
+  text-align: center;
+}
+@media (max-width: 1440px) {
+  .block-4__header {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 1000px) {
+  .block-4__header {
+    margin-bottom: 40px;
+  }
+}
+.block-4__header h2 {
+  font-family: MinionPro, serif;
+  color: #000000;
+  margin-right: 3.3125rem;
+  line-height: 119.4%;
+  letter-spacing: 0.2;
+  font-size: 2.1875rem;
+  text-transform: uppercase;
+  margin-top: 125px;
+}
+@media (max-width: 1440px) {
+  .block-4__header h2 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 1000px) {
+  .block-4__header h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .block-4__header h2 {
+    font-size: 30px;
+    margin-top: 90px;
+  }
+}
+.block-4__header .line {
+  margin-top: 115px;
+  height: 1px;
+  width: 370px;
+  background-color: #000000;
+}
+@media (max-width: 768px) {
+  .block-4__header .line {
+    margin-top: 80px;
+  }
+}
+.block-4 .sections section {
+  margin-bottom: 140px;
+}
+@media (max-width: 768px) {
+  .block-4 .sections section img {
+    width: 330px;
+  }
+}
+@media (max-width: 768px) {
+  .block-4 .sections section img {
+    width: 300px;
+    margin-top: 30px;
+  }
+}
+.block-4 .sections section .description h3 {
+  font-family: Gilroy-bold, sans-serif;
+  font-size: 40px;
+  line-height: 119%;
+  letter-spacing: 8%;
+  color: #000000;
+  margin-bottom: 50px;
+}
+@media (max-width: 1440px) {
+  .block-4 .sections section .description h3 {
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .block-4 .sections section .description h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .block-4 .sections section .description h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+.block-4 .sections section .description .par {
+  font-family: MinionPro, serif;
+  font-size: 30px;
+  line-height: 110%;
+  margin-bottom: 30px;
+  letter-spacing: 4%;
+}
+@media (max-width: 1440px) {
+  .block-4 .sections section .description .par {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1000px) {
+  .block-4 .sections section .description .par {
+    font-size: 18px;
+  }
+}
+.block-4 .sections section .description .par span {
+  color: #C4504C;
+}
+.block-4 .sections section .description .price {
+  font-family: Gilroy-semibold, sans-serif;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 4%;
+  color: #000000;
+}
+@media (max-width: 1440px) {
+  .block-4 .sections section .description .price {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1000px) {
+  .block-4 .sections section .description .price {
+    font-size: 32px;
+  }
+}
+.block-4 .sections section .description .buttons {
+  margin-top: 55px;
+}
+.block-4 .sections section .description .buttons .btn-buy {
+  font-family: MinionPro, serif;
+  color: #FFFFFF;
+  background-color: #A44B4C;
+  border-radius: 90px;
+  padding: 17px 80px;
+  line-height: 117.8%;
+  font-size: 26px;
+  letter-spacing: 3%;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+.block-4 .sections section .description .buttons .btn-buy:hover {
+  background-color: #000000;
+}
+.block-4 .sections section .description .buttons .btn-buy:active {
+  background-color: #363636;
+}
+.block-4 .sections section .description .buttons .btn-buy:disabled {
+  opacity: 0.6;
+}
+.block-4 .sections section .description .buttons .btn-cat {
+  font-family: MinionPro, serif;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 90px;
+  padding: 17px 66px;
+  line-height: 117.8%;
+  font-size: 26px;
+  letter-spacing: 3%;
+  transition: all 0.3s ease;
+}
+.block-4 .sections section .description .buttons .btn-cat:hover {
+  color: #FFFFFF;
+  background-color: #E2A8A6;
+  border: 1px solid #A44B4C;
+}
+.block-4 .sections section .description .buttons .btn-cat:active {
+  color: #FFFFFF;
+  background-color: #C4504C;
+}
+.block-4 .sections section .description .buttons .btn-cat:disabled {
+  opacity: 0.6;
+}
+@media (max-width: 1000px) {
+  .block-4 .sections section .description .buttons .btn-cat {
+    display: none;
+  }
+}
 @media (max-width: 1200px) {
   header .header {
     background-size: 200%;
