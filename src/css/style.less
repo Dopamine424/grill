@@ -624,68 +624,97 @@ header{
 
 // block-6 ----------------------------------------------------
 
-// .block-6{
-//     margin-bottom: 100px;
-//     .container{
-//         .slider{
-//             &__item{
-//                 margin-right: 30px;
-//                 width: 370px;
-//                 position: relative;
-//                 text-align: center;
-//                 padding: 35px 37px;
-//                 border: 1px solid @cream;
-//                 color: @cream;
-//                 .slick-list{
-//                     overflow: visible !important;
-//                 }
-//                 .title{
-//                     .minionPro();
-//                     font-size: 26px;
-//                     line-height: 62%;
-//                     margin-top: 54px;
-//                 }
-//                 .price{
-//                     color: @red;
-//                     margin-top: 20px;
-//                     .gilroy-semibold();
-//                     font-size: 18px;
-//                     line-height: 119%;
-//                 }
-//                 span{
-//                     position: absolute;
-//                     left: 36%;
-//                     top: 95%;
-//                     .minionPro();
-//                     font-size: 17px;
-//                     background-color: @cream;
-//                     color: @black;
-//                     padding: 14px 22px;
-//                     border-radius: 100px;
-//                 }
-//             }
-//         }
-//         .block-6__header{
-//             width: 100%;
-//             margin-bottom: 80px;
-//             text-align: center;
-//             h2{
-//                 .minionPro();
-//                 color: @cream;
-//                 margin-right: 3.3125rem;
-//                 line-height: 119.4%;
-//                 letter-spacing: 0.20;
-//                 font-size: 2.1875rem;
-//                 text-transform: uppercase;
-//             }
-//             .line{
-//                 height: 1px;
-//                 width: 370px;
-//                 background-color: @cream;
-//             }
-//         }
-//     }
-// }
+.block-6{
+    margin-bottom: 100px;
+    .container{
+        .arrows-block6{
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            svg{
+                fill: #494949;
+                &:hover{
+                    fill: @red;
+                }
+            }
+        }
+        .next-arrow-block6{
+            margin-left: 25px;
+            width: 52px;
+            height: 15px;
+    
+        }
+        .prev-arrow-block6{
+            width: 52px;
+            height: 15px;
+            
+        }
+        .slider{
+            width: 100%;
+
+            &__item{
+                margin: 0 15px;
+                overflow: visible !important;
+                width: 370px;
+                position: relative;
+                text-align: center;
+                padding: 35px 37px;
+                border: 1px solid @cream;
+                color: @cream;
+                img{
+                    width: 100%;
+                }
+                .slick-list{
+                    overflow: visible !important;
+                    
+                }
+                .title{
+                    .minionPro();
+                    font-size: 26px;
+                    line-height: 62%;
+                    margin-top: 54px;
+                }
+                .price{
+                    color: @red;
+                    margin-top: 20px;
+                    .gilroy-semibold();
+                    font-size: 18px;
+                    line-height: 119%;
+                }
+                span{
+                    position: absolute;
+                    left: 36%;
+                    top: 95%;
+                    .minionPro();
+                    font-size: 17px;
+                    background-color: @cream;
+                    color: @black;
+                    padding: 14px 22px;
+                    border-radius: 100px;
+                }
+            }
+        }
+        .block-6__header{
+            width: 100%;
+            margin-bottom: 80px;
+            text-align: center;
+            h2{
+                .minionPro();
+                color: @cream;
+                margin-right: 3.3125rem;
+                line-height: 119.4%;
+                letter-spacing: 0.20;
+                font-size: 2.1875rem;
+                text-transform: uppercase;
+            }
+            .line{
+                height: 1px;
+                width: 370px;
+                background-color: @cream;
+            }
+        }
+    }
+}
 
 
 
