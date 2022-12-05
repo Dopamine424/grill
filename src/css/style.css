@@ -616,12 +616,41 @@ header .header-links .icons .login:hover {
   width: 52px;
   height: 15px;
 }
+.block-6 .container .block-6__link {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .block-6 .container .block-6__link {
+    display: none;
+  }
+}
+.block-6 .container .block-6__link a {
+  margin-right: 15px;
+  color: #E9D3B0;
+  font-size: 22px;
+  line-height: 65%;
+  font-family: MinionPro, serif;
+}
+.block-6 .container .block-6__link a:hover {
+  color: #C4504C;
+  transition: all 0.2s ease;
+}
+.block-6 .container .block-6__link-first {
+  display: none;
+}
+@media (max-width: 767px) {
+  .block-6 .container .block-6__link-first {
+    display: block;
+  }
+}
 .block-6 .container .slider {
   width: 100%;
 }
 .block-6 .container .slider__item {
   margin: 0 15px;
-  overflow: visible !important;
   width: 370px;
   position: relative;
   text-align: center;
@@ -658,6 +687,11 @@ header .header-links .icons .login:hover {
   color: #000000;
   padding: 14px 22px;
   border-radius: 100px;
+}
+.block-6 .container .slider__item #span-2 {
+  background-color: #C4504C;
+  color: #FFFFFF;
+  left: 33%;
 }
 .block-6 .container .block-6__header {
   width: 100%;
@@ -1029,6 +1063,10 @@ header .header-links .icons .login:hover {
 .flag {
   background-size: 1000% !important;
   background-color: #9E423E;
+}
+.slick-list {
+  overflow: visible;
+  overflow-x: clip;
 }
 @media (max-width: 1920px) {
   .container {
