@@ -224,13 +224,6 @@ header .header-links .icons .login:hover {
   z-index: 0;
   display: flex;
   align-items: center;
-  margin-top: -5.75rem;
-}
-.wrapper .sections .g2 img {
-  min-height: 320px;
-}
-.wrapper .sections .g2 img:nth-child(2) {
-  margin-top: 10.75rem;
 }
 .footer-copy hr {
   color: #C4C4C4;
@@ -611,10 +604,12 @@ header .header-links .icons .login:hover {
   margin-left: 25px;
   width: 52px;
   height: 15px;
+  cursor: pointer;
 }
 .block-6 .container .prev-arrow-block6 {
   width: 52px;
   height: 15px;
+  cursor: pointer;
 }
 .block-6 .container .block-6__link {
   display: flex;
