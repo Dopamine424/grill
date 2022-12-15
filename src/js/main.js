@@ -208,3 +208,8 @@ $('.slider').slick({
   const phoneMask = new IMask(phoneInput, {
     mask: "+{7}(000)000-00-00",
   });
+
+  let phoneInput2 = document.getElementById("phone2");
+  const phoneMask2 = new IMask(phoneInput2, {
+    mask: "+{7}(000)000-00-00",
+  });
