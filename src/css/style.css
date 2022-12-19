@@ -217,6 +217,12 @@ header .header-links .icons .login:hover {
 .wrapper .sections .gallery img {
   width: 100%;
 }
+.wrapper .sections .gallery2 {
+  display: flex;
+}
+.wrapper .sections .gallery2 img {
+  width: 100%;
+}
 .wrapper .sections .g1 {
   z-index: 1;
 }
